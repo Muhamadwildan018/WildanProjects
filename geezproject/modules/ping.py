@@ -64,7 +64,7 @@ async def _(ping):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await ping.client.get_me()
-    await xx.edit(f"**Geez - Project!!🎈**\n**Pinger** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration))
+    await xx.edit(f"**WildanProject!! 🏓**\n**Pinger** : %sms\n**Bot Uptime** : {uptime}⏰" % (duration))
 
 
 @geez_cmd(pattern=r"xping$")
@@ -76,7 +76,7 @@ async def _(ping):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await xping.edit(
-        f"**PONG!! 🍭**\n**Pinger** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration)
+        f"**PONG!! 🍭**\n**Pinger** : %sms\n**Bot Uptime** : {uptime}⏰" % (duration)
     )
 
 
@@ -106,23 +106,23 @@ async def _(pong):
 async def _(pong):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    kping = await edit_or_reply(pong, "8✊===D")
-    await kping.edit("8=✊==D")
-    await kping.edit("8==✊=D")
-    await kping.edit("8===✊D")
-    await kping.edit("8==✊=D")
-    await kping.edit("8=✊==D")
-    await kping.edit("8✊===D")
-    await kping.edit("8=✊==D")
-    await kping.edit("8==✊=D")
-    await kping.edit("8===✊D")
-    await kping.edit("8==✊=D")
-    await kping.edit("8=✊==D")
-    await kping.edit("8✊===D")
-    await kping.edit("8=✊==D")
-    await kping.edit("8==✊=D")
-    await kping.edit("8===✊D")
-    await kping.edit("8===✊D💦")
+    kping = await edit_or_reply(pong, "8🤪===D")
+    await kping.edit("8=🤪==D")
+    await kping.edit("8==🤪=D")
+    await kping.edit("8===🤪D")
+    await kping.edit("8==🤪=D")
+    await kping.edit("8=🤪==D")
+    await kping.edit("8🤪===D")
+    await kping.edit("8=🤪==D")
+    await kping.edit("8==🤪=D")
+    await kping.edit("8===🤪D")
+    await kping.edit("8==🤪=D")
+    await kping.edit("8=🤪==D")
+    await kping.edit("8🤪===D")
+    await kping.edit("8=🤪==D")
+    await kping.edit("8==🤪=D")
+    await kping.edit("8===🤪D")
+    await kping.edit("8===🤪D💦")
     await kping.edit("8====D💦💦")
     await kping.edit("**CROOTTTT PINGGGG!**")
     end = datetime.now()
@@ -200,7 +200,7 @@ CMD_HELP.update(
     {
         "speedtest": f"**Plugin : **`speedtest`\
         \n\n  𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :** `{cmd}speedtest`\
-        \n  ❍▸ : **Untuk Mengetes kecepatan server geezproject.\
+        \n  ❍▸ : **Untuk Mengetes kecepatan server WildanProject.\
     "
     }
 )
