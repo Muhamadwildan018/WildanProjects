@@ -1,5 +1,5 @@
 <p align="center">
-   <a href="https://github.com/vckyou/GeezProjects"><img src="https://telegra.ph/file/8e256cb133087b060e288.png" alt="Geez Projects" width=240px></a>
+   <a href="https://github.com/Muhamadwildan018/WildanProjects"><img src="https://telegra.ph/file/8e256cb133087b060e288.png" alt="Geez Projects" width=240px></a>
    <br>
    <br>
 </p>
@@ -15,7 +15,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 Selamat Menikmati :D
 ```
 
-## GeezProjects Bot
+## WildanProjects Bot
 
 [![Sourcery](https://img.shields.io/badge/Sourcery-enabled-brightgreen)](https://sourcery.ai)
 
@@ -69,7 +69,7 @@ async def ping(event):
 *   [TeamUltroid](https://github.com/TeamUltroid/Ultroid) :  UltroidUserbot
 *   [BianSepang](https://github.com/BianSepang/WeebProject) : WeebProject
 *   [Sandy1709](https://github.com/sandy1709/catuserbot) : CatUserbot
-*   [VICKY](https://github.com/vckyou/GeezProjects) :  GeezProjects
+*   [WILDAN](https://github.com/Muhamadwildan018/WildanProject) :  WildanProjects
 *   [Risman](https://github.com/mrismanaziz/Man-geezproject) :  Man-geezproject
 *   [Alvin](https://github.com/Zora24/Lord-geezproject) : Lord-geezproject
 *   [X_ImFine](https://github.com/ximfine) :  XBot-REMIX
