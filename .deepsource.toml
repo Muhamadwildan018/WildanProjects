@@ -1,7 +1,7 @@
 version = 1
 
 [[analyzers]]
-name = "shell"
+name = "Wildan"
 enabled = true
 
 [[analyzers]]
