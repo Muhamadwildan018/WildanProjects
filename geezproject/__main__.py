@@ -1,4 +1,4 @@
-""" geezproject start point """
+""" WildanProject start point """
 
 
 import sys
@@ -20,15 +20,15 @@ try:
     call_py.start()
     user = bot.get_me()
     blacklistgeez = requests.get(
-        "https://raw.githubusercontent.com/vckyou/Reforestation/master/blacklistgeez.json"
+        "https://raw.githubusercontent.com/Muhamadwildan018/Reforestation/master/blacklistgeez.json"
     ).json()
     if user.id in blacklistgeez:
         LOGS.warning(
-            "NAMPAKNYA geezproject TIDAK DAPAT BEKERJA, MUNGKIN ANDA TELAH DI BLACKLIST OLEH PEMILIK geezproject.\nCredits: @VckyouuBitch"        )
+            "NAMPAKNYA WildanProject TIDAK DAPAT BEKERJA, MUNGKIN ANDA TELAH DI BLACKLIST OLEH PEMILIK WildanProject.\nCredits: @VckyouuBitch"        )
         sys.exit(1)
     if 874946835 not in DEVS:
         LOGS.warning(
-            f"EOL\nGeezProjects v{BOT_VER}, Copyright © 2021-2022 VICKY <https://github.com/vckyou>"
+            f"EOL\nWildanProjects v{BOT_VER}, Copyright © 2021-2022 WILDAN <https://github.com/Muhamadwildan018>"
         )
         sys.exit(1)
 except Exception as e:
@@ -36,11 +36,11 @@ except Exception as e:
     sys.exit(1)
 
 for module_name in ALL_MODULES:
-    imported_module = import_module("geezproject.modules." + module_name)
+    imported_module = import_module("WildanProject.modules." + module_name)
 
 LOGS.info(f"Total Clients = {total} User")
-LOGS.info(f"Jika {user.first_name} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/GeezSupport")
-LOGS.info(f"💢 Geez - Projects Berhasil Diaktfikan 💢")
+LOGS.info(f"Jika {user.first_name} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/dansupport")
+LOGS.info(f"💢 WildanProjects Berhasil Diaktfikan 💢")
 
 
 LOOP.run_until_complete(geez_userbot_on())
